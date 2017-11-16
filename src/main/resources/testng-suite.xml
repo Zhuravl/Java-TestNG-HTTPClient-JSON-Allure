@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Tests" verbose="1" configfailurepolicy="continue" preserve-order="true" time-out="300000">
+    <test name="APITests">
+        <classes>
+            <class name="tests.RestTest"/>
+            <class name="tests.SoapTest"/>
+        </classes>
+    </test>
+</suite>
